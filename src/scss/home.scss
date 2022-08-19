@@ -2,17 +2,34 @@ $grey:#ebebeb;
 
 body {
     background-color: $grey;
-    //position:relative;
+    position:relative;
 }
+
+.picture {
+    max-width: 100%;
+  
+}
+.welcome{
+    position:absolute;
+    top: 60%;
+    left:10%;
+    color:#fff;
+    font-size:50px;
+    font-weight: bold;
+}
+
 
 .sidemenu {
     background-color: #fff;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     width:15%;
-    height:40%;
+    height:50%;
     text-align: center;
-    margin-left:10%;
+    margin-left:20%;
+    margin-bottom:60%;
    float:left;
+   position:absolute;
+   top: 80%;
 }
 .menu{
     line-height: 40px;
@@ -26,6 +43,12 @@ body {
     grid-template-columns: 1fr 1fr 1fr 3fr;
     grid-row-gap: 10px;
     grid-column-gap:10px;
-    margin-top:10%;
-    margin-left: 30%;
+    // margin-top:10%;
+    margin-left: 40%;
+    position:absolute;
+   top: 80%;
 }
+
+.profilename{
+        font-weight: bold;
+    }
