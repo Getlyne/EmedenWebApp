@@ -1,5 +1,6 @@
 import {React,Component} from 'react';
 import Nav from '../components/nav.js';
+import Footer from '../components/Footer.jsx';
 import '../scss/home.scss';
 import Card from '@mui/material/Card';
 import { CCard } from '@coreui/react';
@@ -54,7 +55,7 @@ class Home extends Component {
                   <CCardBody style={{align:'center'}}>
                     <CCardText>
                         Heading 1
-                        body
+                     
                     </CCardText>
                     </CCardBody>
                   </CCard>
@@ -64,7 +65,7 @@ class Home extends Component {
                   <CCardBody style={{align:'center'}}>
                     <CCardText>
                         Heading 2
-                        body
+                       
                     </CCardText>
                     </CCardBody>
                   </CCard>
@@ -74,7 +75,7 @@ class Home extends Component {
                   <CCardBody style={{align:'center'}}>
                     <CCardText>
                         Heading 3
-                        body
+                    
                     </CCardText>
                     </CCardBody>
                   </CCard>
@@ -84,7 +85,7 @@ class Home extends Component {
                   <CCardBody style={{align:'center'}}>
                     <CCardText>
                     Heading 4
-                    body
+                   
                     </CCardText>
                     </CCardBody>
                   </CCard>
@@ -94,7 +95,7 @@ class Home extends Component {
                   <CCardBody style={{align:'center'}}>
                     <CCardText>
                         Heading 5
-                        body
+                        
                     </CCardText>
                     </CCardBody>
                   </CCard>
@@ -104,7 +105,7 @@ class Home extends Component {
                   <CCardBody style={{align:'center'}}>
                     <CCardText>
                       Heading 6
-                      body
+                    
                     </CCardText>
                     </CCardBody>
                   </CCard>
@@ -114,7 +115,7 @@ class Home extends Component {
                   <CCardBody style={{align:'center'}}>
                     <CCardText>
                      Heading 7
-                     body
+                   
                     </CCardText>
                     </CCardBody>
                   </CCard>
@@ -124,7 +125,7 @@ class Home extends Component {
                   <CCardBody style={{align:'center'}}>
                     <CCardText>
                      Heading 8
-                     body
+                    
                     </CCardText>
                     </CCardBody>
                   </CCard>
@@ -134,7 +135,7 @@ class Home extends Component {
                   <CCardBody style={{align:'center'}}>
                     <CCardText>
                         Heading 9
-                        body
+                       
                     </CCardText>
                     </CCardBody>
                   </CCard>
@@ -144,7 +145,7 @@ class Home extends Component {
                   <CCardBody style={{align:'center'}}>
                     <CCardText>
                      Heading 10
-                     body
+                    
                     </CCardText>
                     </CCardBody>
                   </CCard>
@@ -154,7 +155,7 @@ class Home extends Component {
                   <CCardBody style={{align:'center'}}>
                     <CCardText>
                        Heading 11
-                       body
+                      
                     </CCardText>
                     </CCardBody>
                   </CCard>
@@ -164,11 +165,14 @@ class Home extends Component {
                   <CCardBody style={{align:'center'}}>
                     <CCardText>
                       Heading 12
-                      body
+                     
                     </CCardText>
                     </CCardBody>
                   </CCard>
                 </div>
+                <footer>
+                  <Footer/>
+                </footer>
             </div>
         )
     }
