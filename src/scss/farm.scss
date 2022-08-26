@@ -1,0 +1,51 @@
+$grey:#ebebeb;
+
+body {
+    background-color: $grey;
+    position:relative;
+}
+
+
+.sidemenu {
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width:15%;
+    height:50%;
+    text-align: center;
+    margin-left:10%;
+    margin-bottom:60%;
+   float:left;
+//    position: absolute;
+   margin-top: 20%;
+}
+
+.menu{
+    line-height: 40px;
+    p {
+       padding-inline:10px;
+        text-align:left;
+    }
+}
+
+.profilename{
+    font-weight: bold;
+}
+.produce {
+    margin-top:20%;
+    position: absolute;
+    margin-left: 30%;
+    top:20%;
+}
+
+.fruits_veggies,.legumes,.dairy,.chicken,.bees,.eggs {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width:550px;
+    background-color: #fff;
+    margin-bottom:10px;
+    display:flex;
+ 
+}
+.words {
+    padding-inline: 10px;
+}
+
