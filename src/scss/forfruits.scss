@@ -1,0 +1,41 @@
+$grey:#ebebeb;
+
+body {
+    background-color: $grey;
+    position:relative;
+}
+
+
+.sidemenu {
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width:15%;
+    height:50%;
+    text-align: center;
+    margin-left:20%;
+    margin-bottom:60%;
+   float:left;
+   position: absolute;
+}
+
+.menu{
+    line-height: 40px;
+    p {
+       padding-inline:10px;
+        text-align:left;
+    }
+}
+
+.profilename{
+    font-weight: bold;
+}
+
+
+.fruitsmenu{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 3fr;
+    grid-row-gap: 10px;
+    grid-column-gap:10px;
+    margin-left: 40%;
+   margin-top: 20%;
+}
