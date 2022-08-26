@@ -1,5 +1,6 @@
 import {React, Component} from 'react';
 import '../scss/farm.scss';
+import Footer from '../components/Footer.jsx';
 import milk from '../images/milk.jpeg';
 import chicken from '../images/chicken.jpeg';
 import honey from '../images/honey.jpeg';
@@ -98,6 +99,9 @@ class Farm extends Component {
                         </div>
                     </div>
                     </div>
+                    <footer>
+                        <Footer/>
+                    </footer>
                 </div>
             )
         }

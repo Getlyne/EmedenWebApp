@@ -1,5 +1,6 @@
 import {React, Component} from 'react';
 import '../scss/forfruits.scss';
+import Footer from '../components/Footer,jsx';
 import { CCard } from '@coreui/react';
 import { CCardImage } from '@coreui/react';
 import { CCardBody } from '@coreui/react';
@@ -249,6 +250,9 @@ class Fruits extends Component {
                     </CCardBody>
                   </CCard>
               </div>
+              <footer>
+                <Footer/>
+                </footer>
             </div>
         )
     }
