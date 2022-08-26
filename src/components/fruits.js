@@ -32,6 +32,7 @@ class Fruits extends Component {
     render() {
         return(
             <div className='for fruits'>
+              <h1>Fruits and Vegetables</h1>
                   <div className='sidemenu'>
                   <div className='profile'>
                     <p className='profilename'> Gilbert Onyi</p>

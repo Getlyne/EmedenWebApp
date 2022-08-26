@@ -21,6 +21,7 @@ class Farm extends Component {
         render() {
             return(
                 <div className='farmproduce'>
+                    <h1>Farm produce</h1>
                  <div className='sidemenu'>
                   <div className='profile'>
                     <p className='profilename'> Gilbert Onyi</p>

@@ -5,7 +5,9 @@ body {
     position:relative;
 }
 
-
+h1 {
+    text-align:center;
+}
 .sidemenu {
     background-color: #fff;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -37,5 +39,4 @@ body {
     grid-row-gap: 10px;
     grid-column-gap:10px;
     margin-left: 40%;
-   margin-top: 20%;
 }
